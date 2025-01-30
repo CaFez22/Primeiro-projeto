@@ -1,0 +1,75 @@
+p{color: #D3D9DF}
+
+strong{color: #F2994A}
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Kaushan+Script&family=M+PLUS+1+Code:wght@100..700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+body{
+	background-color: #030514
+}
+
+img{
+	width: 100%;
+	border-radius: 3px;
+}
+
+nav{
+	width: 100%;
+	height: 40px;
+	background-color:#000000;
+	padding: 5px;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	margin-right: 50px;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #E1C559;
+    transition: color 0.3s;
+}
+article{
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#things{
+	background-color:#02030E;
+	padding: 20px;
+}
+
+#container{
+	display: flex;
+}
+.card{
+	background-color:#030514;
+	margin:35px ;
+	width: 25%;
+	padding: 5px;
+	border-radius: 6px;
+	box-shadow: 3px 3px 3px #000C;
+}
+
+.card-content{
+	font: 1.2rem 'Space Grotesk';
+	color:#D3D9DF ;
+	text-align: center;
+}
+
+h3{
+	font: 2rem 'Kaushan Script', cursive;
+	color:#b89536;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+*{margin: 0}
+
